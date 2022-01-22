@@ -11,6 +11,8 @@
 		4713A0BA2799F82300E15C35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4713A0B92799F82300E15C35 /* ContentView.swift */; };
 		4713A0BC2799F82500E15C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4713A0BB2799F82500E15C35 /* Assets.xcassets */; };
 		4713A0BF2799F82500E15C35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4713A0BE2799F82500E15C35 /* Preview Assets.xcassets */; };
+		4713A0CA2799FA5400E15C35 /* ColorCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4713A0C92799FA5400E15C35 /* ColorCircleView.swift */; };
+		4784AA06279C21E400C785C3 /* NextColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4784AA05279C21E400C785C3 /* NextColorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4713A0B92799F82300E15C35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4713A0BB2799F82500E15C35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4713A0BE2799F82500E15C35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4713A0C92799FA5400E15C35 /* ColorCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircleView.swift; sourceTree = "<group>"; };
+		4784AA05279C21E400C785C3 /* NextColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextColorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				4713A0B72799F82300E15C35 /* TrafficLightsApp.swift */,
 				4713A0B92799F82300E15C35 /* ContentView.swift */,
+				4713A0C92799FA5400E15C35 /* ColorCircleView.swift */,
 				4713A0BB2799F82500E15C35 /* Assets.xcassets */,
 				4713A0BD2799F82500E15C35 /* Preview Content */,
+				4784AA05279C21E400C785C3 /* NextColorButton.swift */,
 			);
 			path = TrafficLights;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4713A0CA2799FA5400E15C35 /* ColorCircleView.swift in Sources */,
 				4713A0BA2799F82300E15C35 /* ContentView.swift in Sources */,
+				4784AA06279C21E400C785C3 /* NextColorButton.swift in Sources */,
 				4713A0B82799F82300E15C35 /* TrafficLightsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
