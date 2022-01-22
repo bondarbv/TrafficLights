@@ -11,6 +11,7 @@ struct ContentView: View {
     
     private let lightIsOff = 0.3
     private let lightIsOn: Double = 1
+    @State var buttonTitle: String = "Start"
     
     @State private var currentLight = CurrentLight.red
     @State private var redLightOpacity = 0.3
@@ -44,9 +45,24 @@ struct ContentView: View {
             ColorCircleView(color: .yellow, opacity: yellowLightOpacity)
             ColorCircleView(color: .green, opacity: greenLightOpacity)
             Divider()
-            NextColorButton(action: {
-                changeColor()
-            }, title: "Next")
+            Button (action: {
+                            changeColor()
+                            if buttonTitle == "Start" {
+                               buttonTitle = "Next"
+                            }
+                        }) {
+                            Text(self.buttonTitle)
+                                .font(.largeTitle)
+                                .foregroundColor(Color.white)
+                                .frame(width: 100, height: 50)
+                                .background(Color.blue)
+                                .cornerRadius(20)
+
+                        }
+
+//            NextColorButton(action: {
+//                changeColor()
+//            }, title: "Start")
             }
         }
     }
